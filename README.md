@@ -1,6 +1,6 @@
 # Tree Match
 
-![Build Status](https://github.com/user/project/actions/workflows/main.yml/badge.svg)
+![Build Status](https://github.com/vincentsong/TreeMatch/actions/workflows/main.yml/badge.svg)
 
 ## Introduction
 
