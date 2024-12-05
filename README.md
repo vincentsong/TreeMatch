@@ -1,5 +1,7 @@
 # Tree Match
 
+![Build Status](https://github.com/user/project/actions/workflows/main.yml/badge.svg)
+
 ## Introduction
 
 **TreeMatch** is a service that tells you what kind of tree you should plant in your garden! It guides users
@@ -30,7 +32,7 @@ We build and bundle it with:
 3. create a '.env' file in project root folder and add the service URL as below
 
 > ```bash
-> VITE_API_URL=https://<Your service's base URL>
+> VITE_API_URL=https://<Your service base URL>
 > ```
 
 4. Run the app with `npm run dev`
