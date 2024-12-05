@@ -39,6 +39,6 @@ We build and bundle it with:
 5. Open the app in your browser at http://localhost:3000/
 
 ## TODO
-- [] Add e2e tests
-- [] Add Docker support
-- [] Add Continuous Deployment with GitHub Actions
+- [ ] Add e2e tests
+- [ ] Add Docker support
+- [ ] Add Continuous Deployment with GitHub Actions
