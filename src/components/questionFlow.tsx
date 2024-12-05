@@ -53,8 +53,8 @@ export const QuestionFlow = observer(() => {
     }
 
     return (
-        <Box p={4} mx="auto" h="98vh" display="flex" flexDirection="column" overflow="hidden">
-            <Box bg="white" zIndex={20}>
+        <Box p={4} bg="white" mx="auto" h="100vh" display="flex" flexDirection="column">
+            <Box>
                 <Heading size="lg" fontSize={{ base: '1.75rem', md: '1.5rem' }}>
                     {questionStore.currentQuestion.question}
                 </Heading>
@@ -71,7 +71,7 @@ export const QuestionFlow = observer(() => {
                     </VStack>
                 </RadioGroup>
             </Box>
-            <Box p={4} bg="white" zIndex={20}>
+            <Box p={4}>
                 <Button
                     colorScheme="blue"
                     size="lg"
