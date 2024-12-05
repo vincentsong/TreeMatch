@@ -6,6 +6,9 @@ import { compression } from 'vite-plugin-compression2'
 
 export default defineConfig({
   plugins: [react(), compression()],
+  server: {
+    port: 3000
+  },
   build: {
     rollupOptions: {
       output: {
